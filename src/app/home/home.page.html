@@ -7,6 +7,7 @@
 </ion-header>
 <br>
 <ion-content [fullscreen]="true">
+  <link ref="TypeScript" href="home.page.ts">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Practica Directivas</ion-title>
@@ -15,5 +16,8 @@
 
   <div id="container">
     <p *ngIf="verdadero">Si ves este mensaje <strong>verdadero</strong> es <strong>true</strong></p>
+  </div>
+  <div *ngFor = "let i of articulos">
+    <p>Articulo: <strong>{{i}}</strong></p>
   </div>
 </ion-content>

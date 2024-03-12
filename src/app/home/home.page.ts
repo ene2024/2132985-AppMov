@@ -11,4 +11,5 @@ export class HomePage implements OnInit{
   ngOnInit (){}
 
   verdadero: boolean = true;
+  articulos: any = ["libro", "computadora", "refreso"];
 }
