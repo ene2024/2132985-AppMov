@@ -20,4 +20,10 @@
   <div *ngFor = "let i of articulos">
     <p>Articulo: <strong>{{i}}</strong></p>
   </div>
+  <div>
+    <p [ngClass]="{'rojo': verdadero, 'azul': verdadero ==false}">Si <strong>verdadero</strong> 
+      es verdadero, este texto será <strong>rojo</strong>,
+ pero si es falso, entonces será <strong>azul.</strong>
+    </p>
+  </div>
 </ion-content>
