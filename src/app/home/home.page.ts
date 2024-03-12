@@ -20,4 +20,6 @@ export class HomePage implements OnInit{
   }
 
   imgUrl: string = 'https://i.redd.it/7ksiaa4exhh01.gif';
+
+  nombreAlumno: string = '';
 }
