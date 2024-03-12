@@ -13,5 +13,9 @@ export class HomePage implements OnInit{
   verdadero: boolean = true;
   articulos: any = ["libro", "computadora", "refreso"];
 
-  title: string ='Mi nueva App!'
+  title: string ='Mi nueva App!';
+
+  hazmeClick(): void{
+    alert('¡Hiciste Click!')
+  }
 }
