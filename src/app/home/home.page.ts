@@ -16,6 +16,8 @@ export class HomePage implements OnInit{
   title: string ='Mi nueva App!';
 
   hazmeClick(): void{
-    alert('¡Hiciste Click!')
+    alert('¡Hiciste Click!');
   }
+
+  imgUrl: string = 'https://i.redd.it/7ksiaa4exhh01.gif';
 }
