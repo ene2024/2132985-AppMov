@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TareasComponent } from './tareas/tareas.component';
 import { AgregarTareaComponent } from './agregar-tarea/agregar-tarea.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -18,7 +19,7 @@ import { AgregarTareaComponent } from './agregar-tarea/agregar-tarea.component';
     AppComponent,
     TareasComponent,
     AgregarTareaComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })

@@ -33,6 +33,14 @@ ion-textarea{
     border: 1px solid #000000;
 }
 
+ion-input{
+    color:black;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border: 1px solid #000000;
+}
+
 ion-item{
     background-color:rgb(255, 255, 255);
     border: 1px solid #000000;
@@ -41,11 +49,11 @@ ion-item{
 }
 
 ion-button{
-    color:#000000;
+    color:#ffffff;
     display: block;
-    --background: rgb(2, 238, 255);
+    --background: #3d3542;
     height: 20%;
-    border: 3px dotted #000000;
+    border: 3px dotted #ffffff;
     width: 100%;
 }
 
