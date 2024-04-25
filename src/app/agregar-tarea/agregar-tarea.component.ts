@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Tarea } from '../tareas/tareas';
 import { ModalController } from '@ionic/angular';
-
+import { TareasService } from '../Services/tareas.service';
 
 
 
@@ -13,7 +13,7 @@ import { ModalController } from '@ionic/angular';
 })
 export class AgregarTareaComponent  implements OnInit {
 
-  constructor(private modalCtrl: ModalController) { }
+  constructor(private modalCtrl: ModalController, private tareaserv: TareasService) { }
 
   ngOnInit() {}
 
@@ -32,7 +32,8 @@ export class AgregarTareaComponent  implements OnInit {
 
   sumbit(){
     console.log("Sumbit form");
-    this.modalCtrl.dismiss(this.nuevaTarea);
+    this.tareaserv.servagregartarea(this.nuevaTarea);
+    this.modalCtrl.dismiss();
   }
 
 
