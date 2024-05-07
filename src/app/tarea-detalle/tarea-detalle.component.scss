@@ -1,0 +1,43 @@
+ion-card-content{
+    background-color: rgb(180, 180, 180);
+    color:rgb(111, 0, 255);
+}
+ion-content{
+    --background: #3d3542;
+    height: 100%;
+    align-content: last baseline;
+}
+ion-card{
+    margin-top: 5vh;
+    margin-left: 20vw;
+    width: 60vw;
+    height:auto;
+    background-color: aliceblue;
+    align-items: center;
+}
+ion-title{
+    text-align: center;
+}
+h5{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left:3vw;
+    text-align: center;
+}
+
+h6{
+    color:rgb(111, 0, 255);
+    font-weight: bold;
+    margin-left:3vw;
+}
+
+.imagen{
+    width: 250px;
+    height: fit-content;
+    margin-left: 20vw;
+}
+
+.botones{
+    display:flex;
+    margin: 0 auto;
+}

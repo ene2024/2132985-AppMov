@@ -19,6 +19,10 @@ export class TareasService {
     return this.tareas;
   }
 
+  servgetonetarea(id: any){
+    return this.tareas[id];
+  }
+
   serveliminartarea(id: number){
     this.tareas.splice(id,1);
   }
